@@ -13,6 +13,4 @@ for i in seq:
 dna = Seq(seq_valida)
 rna = dna.transcribe()
 
-print({ 
-    "rna": str(rna) 
-})
+print(rna)

@@ -8,6 +8,6 @@ class Seq extends BaseController
     {
         $diretorio = getcwd();
         $diretorio = str_replace('/public','',$diretorio);
-        $y = system("python3 $diretorio/app/ThirdParty/dna2rna.py $seq");
+        system("python3 $diretorio/app/ThirdParty/dna2rna.py $seq");
     }
 }
